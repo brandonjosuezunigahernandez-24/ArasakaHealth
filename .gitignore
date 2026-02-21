@@ -1,5 +1,22 @@
+# Dependencias
 node_modules/
+
+# Expo y Mobile
 .expo/
+*.jks
+*.p8
+*.p12
+*.key
+
+# Build y salida
 dist/
+web-build/
+
+# Seguridad y Variables de Entorno (IMPORTANTE)
 .env
+.env.*
+*.local
+
+# Basura del Sistema
 .DS_Store
+Thumbs.db
